@@ -1,0 +1,53 @@
+[
+  {
+    "Walk": "Vampire Slayer"
+  },
+  {
+    "Talk": "Morgan, 2"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Expect": "Garlic",
+    "Search": "Cupboard"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Walk": "Blue Moon Inn"
+  },
+  {
+    "Talk": "Dr Harlow, 2"
+  },
+  {
+    "Talk": "Bartender, 1",
+    "Expect": "Beer"
+  },
+  {
+    "Talk": "Dr Harlow",
+    "Expect": "Stake"
+  },
+  {
+    "Expect": "Hammer"
+  },
+  {
+    "Expect": "Garlic"
+  },
+  {
+    "Walk": "Count Draynor"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Search": "coffin"
+  },
+  {
+    "Fight": "Count Draynor"
+  },
+  {
+    "Climb": "up"
+  }
+]

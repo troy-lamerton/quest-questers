@@ -1,0 +1,78 @@
+---
+- Walk: Waterfall quest
+- Talk: Almera, 2
+- Interact: Board on Raft
+- Interact: Swim on River
+- Walk: Baxtorian building
+- Book: Book on Baxtorian
+- Walk: Tree Gnome Village
+- Climb: down
+- Search: 1990
+  Expect: A key
+- Walk: Golrie
+- Use: A key on Door
+- Talk: Golrie
+  Expect: Glarial's Pebble
+- Climb: up
+- Bank:
+    deposit: inventory
+    withdraw:
+    - "*pebble"
+    - Food
+- Walk: Glarial's Tomb
+- Use: "*pebble on Glarial's Tomb*"
+- Walk: 2543 9823 0
+- Attack: Skeleton
+- Search: Glarial's Tomb
+  Expect: "*urn"
+- Attack: Skeleton
+- Walk: 2546 9838 0
+- Attack: Skeleton
+- Walk: 2535 9844 0
+- Attack: Skeleton
+- Search: "* chest"
+  Expect: Glarial's amulet
+- Attack: Skeleton
+- Walk: 2535 9844 0
+- Attack: Skeleton
+- Climb: up
+# got amulet, urn and pebble
+- Bank:
+    deposit: inventory
+    withdraw:
+      - Glarial's amulet
+      - Glarial's pebble
+      - Glarial's urn
+      - Rope
+      - food
+      - air rune, 6
+      - water rune, 6
+      - earth rune, 6
+- Walk: Baxtorian falls
+- Interact: Board on Raft
+- Use: Rope on Rock
+- Use: Rope on Dead tree
+- Interact: Open on Ledge
+- Walk: to the right path
+- Walk: 2582 9875 0
+- Search: 1999
+  Expect: A key
+- Walk: 2564 9880 0
+- Walk: 2568 9893 0
+- Use: A key on (2568, 9893)
+- Use: A key on (2566, 9901)
+# inside the last room
+# pillars on left
+- Use: air rune on (2562, 9910)
+- Use: air rune on (2562, 9912)
+- Use: air rune on (2562, 9914)
+# pillars on right
+- Use: air rune on (2569, 9914)
+- Use: air rune on (2569, 9912)
+- Use: air rune on (2569, 9910)
+
+# statues
+- Use: Glarial's amulet on Statue of Glarial
+# might need to pause as the ground moves up
+# cup
+- Use: "Glarial's urn on Chalice of Eternity"

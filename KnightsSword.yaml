@@ -1,0 +1,32 @@
+- Expect: Redberry pie
+- Talk: Squire, 1, 2, 1, 1
+- Walk: Varrock Palace Library
+- Talk: Reldo, 4
+- Walk: Thurgo
+# south of Port Sarim (by the anvil)
+- Talk: Thurgo, 2, 2
+- Talk: Thurgo, 2, 2
+- Walk: Asgarnian Ice Dungeon
+- Climb: down # on Trapdoor
+- Walk: (3049, 9567, 0)
+# mine the blurite rock
+- Interact: Mine on 7495
+- Climb: up
+- Walk: The knights sword
+- Talk: Squire
+- Walk: (2993, 3341) # eastern part of castle
+- Climb: up the ladder
+- Walk: (2984, 3337, 1) # central room
+- Climb: up # the stairs in the central room
+# end up in Sir Vyvin's Room
+# When search, He must not be in the room.
+- Search: Cupboard
+  Expect: Portrait
+- Walk: Thurgo, 2
+#  - Bring your iron bars and blurite ore
+- Talk: Thurgo, 2
+# he'll make the blurite sword
+- Talk: Thurgo, 2, 2
+- Walk: The knights sword
+- Talk: Squire
+# quest complete

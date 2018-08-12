@@ -1,0 +1,22 @@
+- Walk: Rimmington
+- Talk: Hetty
+- Fight: Rat
+  Expect: *tail
+- Expect: Coins
+- Walk: Betty
+- Trade: "Eye of newt"
+# burnt meat
+- Walk: South of port sarim chapel
+- Fight: Rat
+  Expect: *rat meat
+- Walk: Rimmington
+- Use: *rat meat on Range
+  Wait: 10
+- Use: *meat on Range
+  Wait: 3
+- Walk: Rimmington onions
+- Search: Onion
+  Wait: 3
+- Walk: Witchs Potion
+- Talk: Hetty
+- Interact: Drink on *cauldron

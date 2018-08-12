@@ -1,0 +1,48 @@
+[
+  {
+    "Walk": "The restless ghost"
+  },
+  {
+    "Talk": "Father Aereck, 3, 1"
+  },
+  {
+    "Walk": "Father urhney"
+  },
+  {
+    "Talk": "Father urhney, 2, 1"
+  },
+  {
+    "Walk": "Lumbridge graveyard"
+  },
+  {
+    "Equip": "Ghostspeak*"
+  },
+  {
+    "Search": "Coffin"
+  },
+  {
+    "Talk": "Restless ghost, 1"
+  },
+  {
+    "Walk": "Wizards tower"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Search": "Altar",
+    "Expect": "*skull"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Walk": "Lumbridge graveyard"
+  },
+  {
+    "Search": "coffin"
+  },
+  {
+    "Use": "*Skull on coffin"
+  }
+]

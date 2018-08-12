@@ -1,0 +1,29 @@
+[
+  {
+    "Bank": {
+      "deposit": "inventory",
+      "withdraw": ["air rune"]
+    }
+  },
+  {
+    "Walk": "Vampire Slayer"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Talk": "Woman, 2"
+  },
+  {
+    "Search": "Cupboard"
+  },
+  {
+    "Fight": "Woman",
+    "Expect": "Bones"
+  },
+  {
+    "Bank": {
+      "deposit": "inventory"
+    }
+  }
+]

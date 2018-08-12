@@ -1,0 +1,100 @@
+---
+- Walk: Waterfall quest
+- Talk: Almera, 2
+- Interact: Board on Raft
+  Wait: 10
+- Talk: Hudon
+- Interact: Swim on River
+- Walk: Baxtorian building
+- Book: Book on Baxtorian
+- Walk: Tree Gnome Village
+  ReturnOnDeath: true
+- Climb: down
+- Search: 1990
+  Expect: A key
+- Walk: Golrie
+- Use: A key on Door
+- Talk: Golrie
+  Expect: Glarial's Pebble
+- Walk: Golrie
+- Climb: up
+- Bank:
+    deposit: everything
+    withdraw:
+    - "*pebble"
+    - food, 8
+  ReturnOnDeath: true
+- Walk: Glarial's Tomb
+- Use: "*pebble on Glarial's Tomb*"
+- Walk: "(2543, 9823, 0)"
+- Aggrovate: Skeleton
+- Search: Glarial's Tomb
+  Expect: "*urn"
+- Aggrovate: Skeleton
+- Walk: "(2546, 9838, 0)"
+- Aggrovate: Skeleton
+- Walk: "(2535, 9844, 0)"
+- Aggrovate: Skeleton
+- Search: "* chest"
+  Expect: Glarial's amulet
+- Aggrovate: Skeleton
+- Walk: "(2535, 9844, 0)"
+- Aggrovate: Skeleton
+- Climb: up
+- Walk: Barbarian assault
+  ReturnOnDeath: true
+- Bank:
+    deposit: inventory
+    withdraw:
+    - Glarial's amulet
+    - Glarial's pebble
+    - Glarial's urn
+    - Rope
+    - food, 8
+    - air rune, 6
+    - water rune, 6
+    - earth rune, 6
+- Walk: Waterfall Quest
+- Interact: Board on Raft
+  Wait: 10
+- Use: Rope on Rock
+  Wait: 10
+- Use: Rope on Dead tree
+  Wait: 3
+- Interact: Open on Ledge
+- Walk: "(2582, 9875, 0)"
+- Search: 1999
+  Expect: A key
+- Walk: "(2564, 9880, 0)"
+- Walk: "(2568, 9893, 0)"
+- Use: A key on (2568, 9893)
+  Wait: 2
+- Use: A key on (2566, 9901)
+  Wait: 3
+- Use: air rune on (2562, 9910)
+  Wait: 1
+- Use: water rune on (2562, 9910)
+- Use: earth rune on (2562, 9910)
+- Use: air rune on (2562, 9912)
+  Wait: 1
+- Use: water rune on (2562, 9912)
+- Use: earth rune on (2562, 9912)
+- Use: air rune on (2562, 9914)
+  Wait: 1
+- Use: water rune on (2562, 9914)
+- Use: earth rune on (2562, 9914)
+- Use: air rune on (2569, 9914)
+  Wait: 3 # moving to other pillars
+- Use: water rune on (2569, 9914)
+- Use: earth rune on (2569, 9914)
+- Use: air rune on (2569, 9912)
+  Wait: 1
+- Use: water rune on (2569, 9912)
+- Use: earth rune on (2569, 9912)
+- Use: air rune on (2569, 9910)
+  Wait: 1
+- Use: water rune on (2569, 9910)
+- Use: earth rune on (2569, 9910)
+- Use: Glarial's amulet on Statue of Glarial
+  Wait: 7
+- Use: Glarial's urn on Chalice of Eternity

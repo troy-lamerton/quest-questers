@@ -1,0 +1,42 @@
+[
+  {
+    "Walk": "Rune Mysteries"
+  },
+  {
+    "Talk": "Duke Horacio, 1, 1",
+    "Expect": "Air Talisman"
+  },
+  {
+    "Walk": "Wizards Tower"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Talk": "Sedridor, 3, 1, 1"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Walk": "Varrock rune shop"
+  },
+  {
+    "Talk": "Aubury, 3"
+  },
+  {
+    "Talk": "Aubury, 3"
+  },
+  {
+    "Walk": "Wizards Tower"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Talk": "Sedridor"
+  },
+  {
+    "Climb": "up"
+  }
+]

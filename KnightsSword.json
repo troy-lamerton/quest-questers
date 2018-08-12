@@ -1,0 +1,75 @@
+[
+  {
+    "Expect": "Redberry pie"
+  },
+  {
+    "Talk": "Squire, 1, 2, 1, 1"
+  },
+  {
+    "Walk": "Varrock Palace Library"
+  },
+  {
+    "Talk": "Reldo, 4"
+  },
+  {
+    "Walk": "Thurgo"
+  },
+  {
+    "Talk": "Thurgo, 2, 2"
+  },
+  {
+    "Talk": "Thurgo, 2, 2"
+  },
+  {
+    "Walk": "Asgarnian Ice Dungeon"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Walk": "(3049, 9567, 0)"
+  },
+  {
+    "Interact": "Mine on 7495"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Walk": "The knights sword"
+  },
+  {
+    "Talk": "Squire"
+  },
+  {
+    "Walk": "(2993, 3341)"
+  },
+  {
+    "Climb": "up the ladder"
+  },
+  {
+    "Walk": "(2984, 3337, 1)"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Search": "Cupboard",
+    "Expect": "Portrait"
+  },
+  {
+    "Walk": "Thurgo, 2"
+  },
+  {
+    "Talk": "Thurgo, 2"
+  },
+  {
+    "Talk": "Thurgo, 2, 2"
+  },
+  {
+    "Walk": "The knights sword"
+  },
+  {
+    "Talk": "Squire"
+  }
+]

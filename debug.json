@@ -1,0 +1,15 @@
+[
+  {
+    "Bank": {
+      "deposit": "everything",
+      "withdraw": [
+        "* rune",
+        "food, 8"
+      ]
+    },
+    "ReturnOnDeath": true
+  },
+  {
+    "Walk": "Lumbridge"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "Walk": "Vampire Slayer"
+  },
+  {
+    "Talk": "Morgan, 2"
+  },
+  {
+    "Climb": "up"
+  },
+  {
+    "Expect": "Garlic",
+    "Search": "Cupboard"
+  },
+  {
+    "Climb": "down"
+  },
+  {
+    "Walk": "Blue Moon Inn"
+  },
+  {
+    "Talk": "Dr Harlow, 2"
+  },
+  {
+    "Talk": "Bartender, 1"
+  },
+  {
+    "Talk": "Dr Harlow",
+    "Expect": "Stake"
+  }
+]
